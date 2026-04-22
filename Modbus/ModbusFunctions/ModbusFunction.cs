@@ -79,7 +79,7 @@ namespace Modbus.ModbusFunctions
         /// Handles the exception
         /// </summary>
         /// <param name="exceptionCode">The exception code.</param>
-		protected void HandeException(byte exceptionCode)
+		protected void HandleException(byte exceptionCode)
 		{
 			string message = string.Empty;
 
