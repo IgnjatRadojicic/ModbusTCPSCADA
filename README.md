@@ -188,7 +188,7 @@ Colloquium extensions (not yet implemented):
 
 ## What I learned
 
-This project was my first serious contact with industrial communication protocols and multi-threaded C# applications. The concrete things I took away:
+This project was my first serious contact with industrial communication protocols. The concrete things I took away:
 
 **Low-level protocol work.** Writing `PackRequest` and `ParseResponse` by hand forced me to actually think about memory layout - how a number larger than a byte is split across bytes, why endianness matters, and why `IPAddress.HostToNetworkOrder` is necessary on Intel CPUs. It is one thing to read that Modbus TCP is big-endian, and another to spend half an hour debugging a byte-swap bug.
 
