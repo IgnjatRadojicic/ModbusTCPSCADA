@@ -1,4 +1,4 @@
-# dCom - Modbus TCP SCADA Client
+# dCom - Modbus TCP SCADA Client - Ignjat Radojicic PR81/2023
 
 A WPF desktop application that acts as a Modbus TCP master (client) for monitoring and controlling field devices over an Ethernet network. The application periodically polls digital and analog values from a slave device (a Modbus simulator in development) and allows an operator to issue write commands through a dedicated control window.
 
